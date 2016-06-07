@@ -1,0 +1,687 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/ --output-directory=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/ --report-file=bsf:C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.qsys
+Progress: Loading nios_system/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP5 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP5
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding OnBoard_AV [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module OnBoard_AV
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding VGA_Alpha_Blender [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module VGA_Alpha_Blender
+Progress: Adding PS2_Port_Dual [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port_Dual
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding IrDA [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RGB_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Camera_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module Camera_Config
+Progress: Adding Camera_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Camera_In
+Progress: Adding Camera_Bayer_Resampler [altera_up_avalon_video_bayer_resampler 13.0]
+Progress: Parameterizing module Camera_Bayer_Resampler
+Progress: Adding Camera_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Camera_Scaler
+Progress: Adding Camera_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Camera_Clipper
+Progress: Adding Camera_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Camera_RGB_Resampler
+Progress: Adding LCD_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module LCD_Controller
+Progress: Adding LCD_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module LCD_RGB_Resampler
+Progress: Adding LCD_Scalar [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module LCD_Scalar
+Progress: Adding LCD_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module LCD_Dual_Clock_FIFO
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Camera_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Camera_DMA_Controller
+Progress: Adding Accelerometer [altera_up_avalon_accelerometer_spi 13.0]
+Progress: Parameterizing module Accelerometer
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding LCD_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module LCD_Char_Buffer
+Progress: Adding LCD_Alpha_Blender [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module LCD_Alpha_Blender
+Progress: Adding enet [altera_eth_tse 13.0]
+Progress: Parameterizing module enet
+Progress: Adding sgdma_rx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding sgdma_tx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding packet_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module packet_memory
+Progress: Adding LCD_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module LCD_DMA_Controller
+Progress: Adding VGA_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module VGA_DMA_Controller
+Progress: Adding belfft_0 [belfft 1.0]
+Progress: Parameterizing module belfft_0
+Progress: Adding TLDA_peripheral_0 [TLDA_peripheral 1.0]
+Progress: Parameterizing module TLDA_peripheral_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Char_Buffer: Character Resolution: 80 x 60
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_Scaler: Change in Resolution: 320 x 240 -> 640 x 480
+Info: nios_system.CPU: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Info: nios_system.Camera_In: Video In Stream: Format: 2592 x 1944 (default) with Colour: 8 (bits) x 1 (planes) (RGB Bayer Pattern)
+Info: nios_system.Camera_Bayer_Resampler: Change in Resolution: 1280 x 720 -> 640 x 360
+Info: nios_system.Camera_Scaler: Change in Resolution: 640 x 360 -> 480 x 270
+Info: nios_system.Camera_Clipper: Change in Resolution: 480 x 270 -> 400 x 240
+Info: nios_system.Camera_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.LCD_Controller: Video Output Stream: Format: 800 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: nios_system.LCD_RGB_Resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.LCD_Scalar: Change in Resolution: 400 x 240 -> 800 x 480
+Info: nios_system.LCD_Char_Buffer: Character Resolution: 50 x 30
+Info: nios_system.enet: To transition your existing Triple-Speed Ethernet (TSE) design to this new version of the user interface, refer to TSE user guide.
+Altera recommends using this new TSE user interface for all new TSE designs.
+Warning: nios_system.belfft: The sim_verilog fileset must specify the top-level module name.
+Info: nios_system.enet.receive/sgdma_rx.in: The source has a ready latency of 2, while the sink has 0. Avalon Streaming Transform will be executed.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/ --output-directory=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.sopcinfo --report-file=html:C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.html --report-file=qip:C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/nios_system.qip --report-file=cmp:C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system.qsys --language=VERILOG
+Progress: Loading nios_system/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 13.0]
+Progress: Parameterizing module clk
+Progress: Adding JTAG_UART [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module JTAG_UART
+Progress: Adding Interval_Timer [altera_avalon_timer 13.0.1.99.2]
+Progress: Parameterizing module Interval_Timer
+Progress: Adding SDRAM [altera_avalon_new_sdram_controller 13.0.1.99.2]
+Progress: Parameterizing module SDRAM
+Progress: Adding Red_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Red_LEDs
+Progress: Adding Green_LEDs [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Green_LEDs
+Progress: Adding HEX3_HEX0 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX3_HEX0
+Progress: Adding HEX7_HEX4 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module HEX7_HEX4
+Progress: Adding Slider_Switches [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Slider_Switches
+Progress: Adding Pushbuttons [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Pushbuttons
+Progress: Adding Expansion_JP5 [altera_up_avalon_parallel_port 13.0]
+Progress: Parameterizing module Expansion_JP5
+Progress: Adding Serial_Port [altera_up_avalon_rs232 13.0]
+Progress: Parameterizing module Serial_Port
+Progress: Adding OnBoard_AV [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module OnBoard_AV
+Progress: Adding Audio [altera_up_avalon_audio 13.0]
+Progress: Parameterizing module Audio
+Progress: Adding Char_LCD_16x2 [altera_up_avalon_character_lcd 13.0]
+Progress: Parameterizing module Char_LCD_16x2
+Progress: Adding PS2_Port [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port
+Progress: Adding SRAM [altera_up_avalon_sram 13.0]
+Progress: Parameterizing module SRAM
+Progress: Adding VGA_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module VGA_Char_Buffer
+Progress: Adding VGA_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module VGA_Controller
+Progress: Adding VGA_Pixel_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module VGA_Pixel_RGB_Resampler
+Progress: Adding VGA_Pixel_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module VGA_Pixel_Scaler
+Progress: Adding VGA_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module VGA_Dual_Clock_FIFO
+Progress: Adding CPU_fpoint [altera_nios_custom_instr_floating_point 13.0]
+Progress: Parameterizing module CPU_fpoint
+Progress: Adding clk_27 [clock_source 13.0]
+Progress: Parameterizing module clk_27
+Progress: Adding VGA_Alpha_Blender [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module VGA_Alpha_Blender
+Progress: Adding PS2_Port_Dual [altera_up_avalon_ps2 13.0]
+Progress: Parameterizing module PS2_Port_Dual
+Progress: Adding CPU [altera_nios2_qsys 13.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid
+Progress: Adding merged_resets [altera_reset_bridge 13.0]
+Progress: Parameterizing module merged_resets
+Progress: Adding sys_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module sys_clk
+Progress: Adding vga_clk [altera_clock_bridge 13.0]
+Progress: Parameterizing module vga_clk
+Progress: Adding External_Clocks [altera_up_clocks 13.0]
+Progress: Parameterizing module External_Clocks
+Progress: Adding Flash [Altera_UP_Flash_Memory_IP_Core_Avalon_Interface 13.0]
+Progress: Parameterizing module Flash
+Progress: Adding SD_Card [Altera_UP_SD_Card_Avalon_Interface 13.0]
+Progress: Parameterizing module SD_Card
+Progress: Adding IrDA [altera_up_avalon_irda 13.0]
+Progress: Parameterizing module IrDA
+Progress: Adding Video_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Video_In
+Progress: Adding Video_In_Chroma_Resampler [altera_up_avalon_video_chroma_resampler 13.0]
+Progress: Parameterizing module Video_In_Chroma_Resampler
+Progress: Adding Video_In_CSC [altera_up_avalon_video_csc 13.0]
+Progress: Parameterizing module Video_In_CSC
+Progress: Adding Video_In_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Video_In_RGB_Resampler
+Progress: Adding Video_In_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Video_In_Clipper
+Progress: Adding Video_In_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Video_In_Scaler
+Progress: Adding Camera_Config [altera_up_avalon_audio_and_video_config 13.0]
+Progress: Parameterizing module Camera_Config
+Progress: Adding Camera_In [altera_up_avalon_video_decoder 13.0]
+Progress: Parameterizing module Camera_In
+Progress: Adding Camera_Bayer_Resampler [altera_up_avalon_video_bayer_resampler 13.0]
+Progress: Parameterizing module Camera_Bayer_Resampler
+Progress: Adding Camera_Scaler [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module Camera_Scaler
+Progress: Adding Camera_Clipper [altera_up_avalon_video_clipper 13.0]
+Progress: Parameterizing module Camera_Clipper
+Progress: Adding Camera_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module Camera_RGB_Resampler
+Progress: Adding LCD_Controller [altera_up_avalon_video_vga_controller 13.0]
+Progress: Parameterizing module LCD_Controller
+Progress: Adding LCD_RGB_Resampler [altera_up_avalon_video_rgb_resampler 13.0]
+Progress: Parameterizing module LCD_RGB_Resampler
+Progress: Adding LCD_Scalar [altera_up_avalon_video_scaler 13.0]
+Progress: Parameterizing module LCD_Scalar
+Progress: Adding LCD_Dual_Clock_FIFO [altera_up_avalon_video_dual_clock_buffer 13.0]
+Progress: Parameterizing module LCD_Dual_Clock_FIFO
+Progress: Adding Video_In_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Video_In_DMA_Controller
+Progress: Adding Camera_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module Camera_DMA_Controller
+Progress: Adding Accelerometer [altera_up_avalon_accelerometer_spi 13.0]
+Progress: Parameterizing module Accelerometer
+Progress: Adding USB [altera_up_avalon_usb 13.0]
+Progress: Parameterizing module USB
+Progress: Adding LCD_Char_Buffer [altera_up_avalon_video_character_buffer_with_dma 13.0]
+Progress: Parameterizing module LCD_Char_Buffer
+Progress: Adding LCD_Alpha_Blender [altera_up_avalon_video_alpha_blender 13.0]
+Progress: Parameterizing module LCD_Alpha_Blender
+Progress: Adding enet [altera_eth_tse 13.0]
+Progress: Parameterizing module enet
+Progress: Adding sgdma_rx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_rx
+Progress: Adding sgdma_tx [altera_avalon_sgdma 13.0.1.99.2]
+Progress: Parameterizing module sgdma_tx
+Progress: Adding descriptor_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module descriptor_memory
+Progress: Adding packet_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module packet_memory
+Progress: Adding LCD_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module LCD_DMA_Controller
+Progress: Adding VGA_DMA_Controller [altera_up_avalon_video_dma_controller 13.0]
+Progress: Parameterizing module VGA_DMA_Controller
+Progress: Adding belfft_0 [belfft 1.0]
+Progress: Parameterizing module belfft_0
+Progress: Adding TLDA_peripheral_0 [TLDA_peripheral 1.0]
+Progress: Parameterizing module TLDA_peripheral_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.VGA_Char_Buffer: Character Resolution: 80 x 60
+Info: nios_system.VGA_Controller: Video Output Stream: Format: 640 x 480 with Color: 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_RGB_Resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.VGA_Pixel_Scaler: Change in Resolution: 320 x 240 -> 640 x 480
+Info: nios_system.CPU: CPUID control register value is 0. Please manually assign CPUID if creating multiple Nios II system
+Info: nios_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.Video_In: Video In Stream: Format: 720 x 244 (Odd Frames) or 720 x 243 (Even Frames) with Colour: 8 (bits) x 2 (planes) (YCrCb 4:2:2)
+Info: nios_system.Video_In_Chroma_Resampler: Chroma Resampling: 8 (bits) x 2 (planes) -> 8 (bits) x 3 (planes)
+Info: nios_system.Video_In_CSC: Colour Space Conversion: 8 (bits) x 3 (planes) (444 YCrCb) -> 8 (bits) x 3 (planes) (24-bit RGB)
+Info: nios_system.Video_In_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.Video_In_Clipper: Change in Resolution: 720 x 244 -> 640 x 240
+Info: nios_system.Video_In_Scaler: Change in Resolution: 640 x 240 -> 320 x 240
+Info: nios_system.Camera_In: Video In Stream: Format: 2592 x 1944 (default) with Colour: 8 (bits) x 1 (planes) (RGB Bayer Pattern)
+Info: nios_system.Camera_Bayer_Resampler: Change in Resolution: 1280 x 720 -> 640 x 360
+Info: nios_system.Camera_Scaler: Change in Resolution: 640 x 360 -> 480 x 270
+Info: nios_system.Camera_Clipper: Change in Resolution: 480 x 270 -> 400 x 240
+Info: nios_system.Camera_RGB_Resampler: RGB Resampling: 8 (bits) x 3 (planes) -> 16 (bits) x 1 (planes)
+Info: nios_system.LCD_Controller: Video Output Stream: Format: 800 x 480 with Color: 10 (bits) x 3 (planes) converted to 8 (bits) per color plane
+Info: nios_system.LCD_RGB_Resampler: RGB Resampling: 16 (bits) x 1 (planes) -> 10 (bits) x 3 (planes)
+Info: nios_system.LCD_Scalar: Change in Resolution: 400 x 240 -> 800 x 480
+Info: nios_system.LCD_Char_Buffer: Character Resolution: 50 x 30
+Info: nios_system.enet: To transition your existing Triple-Speed Ethernet (TSE) design to this new version of the user interface, refer to TSE user guide.
+Altera recommends using this new TSE user interface for all new TSE designs.
+Warning: nios_system.belfft: The sim_verilog fileset must specify the top-level module name.
+Info: nios_system.enet.receive/sgdma_rx.in: The source has a ready latency of 2, while the sink has 0. Avalon Streaming Transform will be executed.
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 66 modules, 339 connections
+Info: merlin_custom_instruction_transform: After transform: 69 modules, 342 connections
+Info: merlin_translator_transform: After transform: 124 modules, 586 connections
+Info: merlin_domain_transform: After transform: 222 modules, 1346 connections
+Info: merlin_router_transform: After transform: 277 modules, 1590 connections
+Info: merlin_traffic_limiter_transform: After transform: 279 modules, 1600 connections
+Info: merlin_burst_transform: After transform: 284 modules, 1625 connections
+Info: reset_adaptation_transform: After transform: 290 modules, 1144 connections
+Info: merlin_network_to_switch_transform: After transform: 399 modules, 1370 connections
+Info: merlin_width_transform: After transform: 413 modules, 1412 connections
+Info: limiter_update_transform: After transform: 413 modules, 1414 connections
+Info: merlin_mm_transform: After transform: 413 modules, 1414 connections
+Info: merlin_interrupt_mapper_transform: After transform: 414 modules, 1417 connections
+Info: avalon_st_adapter: Inserting timing_adapter: timing_adapter_0
+Info: com_altera_sopcmodel_transforms_avalonst_AvalonStreamingTransform: After transform: 415 modules, 1420 connections
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_translator:ci_slave:ci_slave_result (result)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_ipending (ipending)"
+Warning: nios_system: "No matching role found for CPU_custom_instruction_master_multi_xconnect:ci_slave:ci_slave_estatus (estatus)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Warning: nios_system: "No matching role found for rst_controller_005:reset_out:reset_req (reset_req)"
+Info: JTAG_UART: Starting RTL generation for module 'nios_system_JTAG_UART'
+Info: JTAG_UART:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_system_JTAG_UART --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0006_JTAG_UART_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0006_JTAG_UART_gen//nios_system_JTAG_UART_component_configuration.pl  --do_build_sim=0  ]
+Info: JTAG_UART: Done RTL generation for module 'nios_system_JTAG_UART'
+Info: JTAG_UART: "nios_system" instantiated altera_avalon_jtag_uart "JTAG_UART"
+Info: Interval_Timer: Starting RTL generation for module 'nios_system_Interval_Timer'
+Info: Interval_Timer:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios_system_Interval_Timer --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0007_Interval_Timer_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0007_Interval_Timer_gen//nios_system_Interval_Timer_component_configuration.pl  --do_build_sim=0  ]
+Info: Interval_Timer: Done RTL generation for module 'nios_system_Interval_Timer'
+Info: Interval_Timer: "nios_system" instantiated altera_avalon_timer "Interval_Timer"
+Info: SDRAM: Starting RTL generation for module 'nios_system_SDRAM'
+Info: SDRAM:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios_system_SDRAM --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0008_SDRAM_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0008_SDRAM_gen//nios_system_SDRAM_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM: Done RTL generation for module 'nios_system_SDRAM'
+Info: SDRAM: "nios_system" instantiated altera_avalon_new_sdram_controller "SDRAM"
+Info: Red_LEDs: Starting Generation of Parallel Port
+Info: Red_LEDs: "nios_system" instantiated altera_up_avalon_parallel_port "Red_LEDs"
+Info: Green_LEDs: Starting Generation of Parallel Port
+Info: Green_LEDs: "nios_system" instantiated altera_up_avalon_parallel_port "Green_LEDs"
+Info: HEX3_HEX0: Starting Generation of Parallel Port
+Info: HEX3_HEX0: "nios_system" instantiated altera_up_avalon_parallel_port "HEX3_HEX0"
+Info: HEX7_HEX4: Starting Generation of Parallel Port
+Info: HEX7_HEX4: "nios_system" instantiated altera_up_avalon_parallel_port "HEX7_HEX4"
+Info: Slider_Switches: Starting Generation of Parallel Port
+Info: Slider_Switches: "nios_system" instantiated altera_up_avalon_parallel_port "Slider_Switches"
+Info: Pushbuttons: Starting Generation of Parallel Port
+Info: Pushbuttons: "nios_system" instantiated altera_up_avalon_parallel_port "Pushbuttons"
+Info: Expansion_JP5: Starting Generation of Parallel Port
+Info: Expansion_JP5: "nios_system" instantiated altera_up_avalon_parallel_port "Expansion_JP5"
+Info: Serial_Port: Starting Generation of RS232 UART
+Info: Serial_Port: "nios_system" instantiated altera_up_avalon_rs232 "Serial_Port"
+Info: OnBoard_AV: Starting Generation of Audio and Video Config
+Info: OnBoard_AV: "nios_system" instantiated altera_up_avalon_audio_and_video_config "OnBoard_AV"
+Info: Audio: Starting Generation of Audio Controller
+Info: Audio: "nios_system" instantiated altera_up_avalon_audio "Audio"
+Warning: Overwriting different file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Info: Char_LCD_16x2: Starting Generation of Character LCD
+Info: Char_LCD_16x2: "nios_system" instantiated altera_up_avalon_character_lcd "Char_LCD_16x2"
+Info: PS2_Port: Starting Generation of PS2 Controller
+Info: PS2_Port: "nios_system" instantiated altera_up_avalon_ps2 "PS2_Port"
+Info: SRAM: Starting Generation of SRAM or SSRAM Controller
+Info: SRAM: "nios_system" instantiated altera_up_avalon_sram "SRAM"
+Info: VGA_Char_Buffer: Starting Generation of Character Buffer
+Info: VGA_Char_Buffer: "nios_system" instantiated altera_up_avalon_video_character_buffer_with_dma "VGA_Char_Buffer"
+Info: VGA_Controller: Starting Generation of VGA Controller
+Info: VGA_Controller: "nios_system" instantiated altera_up_avalon_video_vga_controller "VGA_Controller"
+Info: VGA_Pixel_RGB_Resampler: Starting Generation of Video RGB Resampler
+Info: VGA_Pixel_RGB_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "VGA_Pixel_RGB_Resampler"
+Info: VGA_Pixel_Scaler: Starting Generation of Video Scaler
+Info: VGA_Pixel_Scaler: "nios_system" instantiated altera_up_avalon_video_scaler "VGA_Pixel_Scaler"
+Info: VGA_Dual_Clock_FIFO: Starting Generation of the Dual Clock Buffer
+Info: VGA_Dual_Clock_FIFO: "nios_system" instantiated altera_up_avalon_video_dual_clock_buffer "VGA_Dual_Clock_FIFO"
+Info: CPU_fpoint: "nios_system" instantiated altera_nios_custom_instr_floating_point "CPU_fpoint"
+Info: VGA_Alpha_Blender: Starting Generation of the Alpha Blender
+Info: VGA_Alpha_Blender: "nios_system" instantiated altera_up_avalon_video_alpha_blender "VGA_Alpha_Blender"
+Info: CPU: Starting RTL generation for module 'nios_system_CPU'
+Info: CPU:   Generation command is [exec C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_system_CPU --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0028_CPU_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0028_CPU_gen//nios_system_CPU_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: CPU: # 2016.05.14 20:38:53 (*) Starting Nios II generation
+Info: CPU: # 2016.05.14 20:38:53 (*)   Checking for plaintext license.
+Info: CPU: # 2016.05.14 20:38:54 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: CPU: # 2016.05.14 20:38:54 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2016.05.14 20:38:54 (*)   LM_LICENSE_FILE environment variable is empty
+Info: CPU: # 2016.05.14 20:38:54 (*)   Plaintext license not found.
+Info: CPU: # 2016.05.14 20:38:54 (*)   Checking for encrypted license (non-evaluation).
+Info: CPU: # 2016.05.14 20:38:55 (*)   Couldn't query license setup in Quartus directory C:/altera/13.0sp1/quartus
+Info: CPU: # 2016.05.14 20:38:55 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: CPU: # 2016.05.14 20:38:55 (*)   LM_LICENSE_FILE environment variable is empty
+Info: CPU: # 2016.05.14 20:38:55 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: CPU: # 2016.05.14 20:38:55 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2016.05.14 20:38:55 (*)   Creating all objects for CPU
+Info: CPU: # 2016.05.14 20:38:55 (*)     Testbench
+Info: CPU: # 2016.05.14 20:38:55 (*)     Instruction decoding
+Info: CPU: # 2016.05.14 20:38:55 (*)       Instruction fields
+Info: CPU: # 2016.05.14 20:38:55 (*)       Instruction decodes
+Info: CPU: # 2016.05.14 20:38:56 (*)       Signals for RTL simulation waveforms
+Info: CPU: # 2016.05.14 20:38:56 (*)       Instruction controls
+Info: CPU: # 2016.05.14 20:38:56 (*)     Pipeline frontend
+Info: CPU: # 2016.05.14 20:38:57 (*)     Pipeline backend
+Info: CPU: # 2016.05.14 20:39:00 (*)   Generating RTL from CPU objects
+Info: CPU: # 2016.05.14 20:39:05 (*)   Creating encrypted RTL
+Info: CPU: # 2016.05.14 20:39:08 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'nios_system_CPU'
+Info: CPU: "nios_system" instantiated altera_nios2_qsys "CPU"
+Info: sysid: "nios_system" instantiated altera_avalon_sysid_qsys "sysid"
+Info: External_Clocks: Starting Generation of Required Clocks for DE-Series Boards
+Info: External_Clocks: "nios_system" instantiated altera_up_clocks "External_Clocks"
+Info: Flash: "nios_system" instantiated Altera_UP_Flash_Memory_IP_Core_Avalon_Interface "Flash"
+Info: SD_Card: "nios_system" instantiated Altera_UP_SD_Card_Avalon_Interface "SD_Card"
+Info: IrDA: Starting Generation of RS232 UART
+Info: IrDA: "nios_system" instantiated altera_up_avalon_irda "IrDA"
+Warning: Overwriting different file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Warning: Overwriting different file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_sync_fifo.v
+Info: Video_In: Starting Generation of Video In Decoder
+Info: Video_In: "nios_system" instantiated altera_up_avalon_video_decoder "Video_In"
+Info: Video_In_Chroma_Resampler: Starting Generation of Chroma Resampler
+Info: Video_In_Chroma_Resampler: "nios_system" instantiated altera_up_avalon_video_chroma_resampler "Video_In_Chroma_Resampler"
+Info: Video_In_CSC: Starting Generation of Colour Space Converter
+Info: Video_In_CSC: "nios_system" instantiated altera_up_avalon_video_csc "Video_In_CSC"
+Info: Video_In_RGB_Resampler: Starting Generation of Video RGB Resampler
+Info: Video_In_RGB_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "Video_In_RGB_Resampler"
+Info: Video_In_Clipper: Starting generation of the video clipper
+Info: Video_In_Clipper: "nios_system" instantiated altera_up_avalon_video_clipper "Video_In_Clipper"
+Info: Video_In_Scaler: Starting Generation of Video Scaler
+Info: Video_In_Scaler: "nios_system" instantiated altera_up_avalon_video_scaler "Video_In_Scaler"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_shrink.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_width.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_height.v
+Info: Camera_Config: Starting Generation of Audio and Video Config
+Info: Camera_Config: "nios_system" instantiated altera_up_avalon_audio_and_video_config "Camera_Config"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_slow_clock_generator.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_dc2.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_d5m.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_lcm.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ltm.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_35.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7181.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_70.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_de2_115.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v
+Info: Camera_In: Starting Generation of Video In Decoder
+Info: Camera_In: "nios_system" instantiated altera_up_avalon_video_decoder "Camera_In"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_itu_656_decoder.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_decoder_add_endofpacket.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_camera_decoder.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dual_clock_fifo.v
+Info: Camera_Bayer_Resampler: Starting Generation of Video Bayer Pattern Resampler
+Info: Camera_Bayer_Resampler: "nios_system" instantiated altera_up_avalon_video_bayer_resampler "Camera_Bayer_Resampler"
+Info: Camera_Scaler: Starting Generation of Video Scaler
+Info: Camera_Scaler: "nios_system" instantiated altera_up_avalon_video_scaler "Camera_Scaler"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_shrink.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_width.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_height.v
+Info: Camera_Clipper: Starting generation of the video clipper
+Info: Camera_Clipper: "nios_system" instantiated altera_up_avalon_video_clipper "Camera_Clipper"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_clipper_add.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_clipper_drop.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_clipper_counters.v
+Info: LCD_Controller: Starting Generation of VGA Controller
+Info: LCD_Controller: "nios_system" instantiated altera_up_avalon_video_vga_controller "LCD_Controller"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_avalon_video_vga_timing.v
+Info: LCD_RGB_Resampler: Starting Generation of Video RGB Resampler
+Info: LCD_RGB_Resampler: "nios_system" instantiated altera_up_avalon_video_rgb_resampler "LCD_RGB_Resampler"
+Info: LCD_Scalar: Starting Generation of Video Scaler
+Info: LCD_Scalar: "nios_system" instantiated altera_up_avalon_video_scaler "LCD_Scalar"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_shrink.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_width.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_scaler_multiply_height.v
+Info: LCD_Dual_Clock_FIFO: Starting Generation of the Dual Clock Buffer
+Info: LCD_Dual_Clock_FIFO: "nios_system" instantiated altera_up_avalon_video_dual_clock_buffer "LCD_Dual_Clock_FIFO"
+Info: Video_In_DMA_Controller: Starting Generation of Video DMA Controller
+Info: Video_In_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "Video_In_DMA_Controller"
+Info: Camera_DMA_Controller: Starting Generation of Video DMA Controller
+Info: Camera_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "Camera_DMA_Controller"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_control_slave.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_memory.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_stream.v
+Info: Accelerometer: Starting Generation of the Accelerometer Controller in SPI mode
+Info: Accelerometer: "nios_system" instantiated altera_up_avalon_accelerometer_spi "Accelerometer"
+Info: USB: Starting Generation of USB Controller
+Info: USB: "nios_system" instantiated altera_up_avalon_usb "USB"
+Info: LCD_Char_Buffer: Starting Generation of Character Buffer
+Info: LCD_Char_Buffer: "nios_system" instantiated altera_up_avalon_video_character_buffer_with_dma "LCD_Char_Buffer"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_128_character_rom.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_fb_color_rom.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_char_mode_rom_128.mif
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_fb_color_rom.mif
+Info: pipeline_bridge_swap_transform: After transform: 1 modules, 0 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 1 modules, 0 connections
+Info: enet: "nios_system" instantiated altera_eth_tse "enet"
+Info: sgdma_rx: Starting RTL generation for module 'nios_system_sgdma_rx'
+Info: sgdma_rx:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma/generate_rtl.pl --name=nios_system_sgdma_rx --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0053_sgdma_rx_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0053_sgdma_rx_gen//nios_system_sgdma_rx_component_configuration.pl  --do_build_sim=0  ]
+Info: sgdma_rx: Done RTL generation for module 'nios_system_sgdma_rx'
+Info: sgdma_rx: "nios_system" instantiated altera_avalon_sgdma "sgdma_rx"
+Info: sgdma_tx: Starting RTL generation for module 'nios_system_sgdma_tx'
+Info: sgdma_tx:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_sgdma/generate_rtl.pl --name=nios_system_sgdma_tx --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0054_sgdma_tx_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0054_sgdma_tx_gen//nios_system_sgdma_tx_component_configuration.pl  --do_build_sim=0  ]
+Info: sgdma_tx: Done RTL generation for module 'nios_system_sgdma_tx'
+Info: sgdma_tx: "nios_system" instantiated altera_avalon_sgdma "sgdma_tx"
+Info: descriptor_memory: Starting RTL generation for module 'nios_system_descriptor_memory'
+Info: descriptor_memory:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_descriptor_memory --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0055_descriptor_memory_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0055_descriptor_memory_gen//nios_system_descriptor_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: descriptor_memory: Done RTL generation for module 'nios_system_descriptor_memory'
+Info: descriptor_memory: "nios_system" instantiated altera_avalon_onchip_memory2 "descriptor_memory"
+Info: packet_memory: Starting RTL generation for module 'nios_system_packet_memory'
+Info: packet_memory:   Generation command is [exec C:/altera/13.0sp1/quartus/bin/perl/bin/perl.exe -I C:/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I C:/altera/13.0sp1/quartus/sopc_builder/bin/europa -I C:/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I C:/altera/13.0sp1/quartus/sopc_builder/bin -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_packet_memory --dir=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0056_packet_memory_gen/ --quartus_dir=C:/altera/13.0sp1/quartus --verilog --config=C:/Users/pavmeh/AppData/Local/Temp/alt6936_1920209314049476466.dir/0056_packet_memory_gen//nios_system_packet_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: packet_memory: Done RTL generation for module 'nios_system_packet_memory'
+Info: packet_memory: "nios_system" instantiated altera_avalon_onchip_memory2 "packet_memory"
+Info: LCD_DMA_Controller: Starting Generation of Video DMA Controller
+Info: LCD_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "LCD_DMA_Controller"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_control_slave.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_memory.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_stream.v
+Info: VGA_DMA_Controller: Starting Generation of Video DMA Controller
+Info: VGA_DMA_Controller: "nios_system" instantiated altera_up_avalon_video_dma_controller "VGA_DMA_Controller"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_control_slave.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_memory.v
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_up_video_dma_to_stream.v
+Info: belfft_0: "nios_system" instantiated belfft "belfft_0"
+Info: TLDA_peripheral_0: "nios_system" instantiated TLDA_peripheral "TLDA_peripheral_0"
+Info: CPU_custom_instruction_master_translator: "nios_system" instantiated altera_customins_master_translator "CPU_custom_instruction_master_translator"
+Info: CPU_custom_instruction_master_multi_xconnect: "nios_system" instantiated altera_customins_xconnect "CPU_custom_instruction_master_multi_xconnect"
+Info: CPU_custom_instruction_master_multi_slave_translator0: "nios_system" instantiated altera_customins_slave_translator "CPU_custom_instruction_master_multi_slave_translator0"
+Info: CPU_instruction_master_translator: "nios_system" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "nios_system" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_translator_avalon_universal_master_0_agent: "nios_system" instantiated altera_merlin_master_agent "CPU_instruction_master_translator_avalon_universal_master_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent: "nios_system" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "nios_system" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "nios_system" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "nios_system" instantiated altera_merlin_router "addr_router_001"
+Info: addr_router_002: "nios_system" instantiated altera_merlin_router "addr_router_002"
+Info: addr_router_006: "nios_system" instantiated altera_merlin_router "addr_router_006"
+Info: addr_router_008: "nios_system" instantiated altera_merlin_router "addr_router_008"
+Info: addr_router_012: "nios_system" instantiated altera_merlin_router "addr_router_012"
+Info: addr_router_013: "nios_system" instantiated altera_merlin_router "addr_router_013"
+Info: id_router: "nios_system" instantiated altera_merlin_router "id_router"
+Info: id_router_001: "nios_system" instantiated altera_merlin_router "id_router_001"
+Info: id_router_003: "nios_system" instantiated altera_merlin_router "id_router_003"
+Info: id_router_014: "nios_system" instantiated altera_merlin_router "id_router_014"
+Info: id_router_016: "nios_system" instantiated altera_merlin_router "id_router_016"
+Info: id_router_035: "nios_system" instantiated altera_merlin_router "id_router_035"
+Info: id_router_036: "nios_system" instantiated altera_merlin_router "id_router_036"
+Info: limiter: "nios_system" instantiated altera_merlin_traffic_limiter "limiter"
+Info: burst_adapter: "nios_system" instantiated altera_merlin_burst_adapter "burst_adapter"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_demux_002: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_002"
+Info: cmd_xbar_demux_008: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_008"
+Info: cmd_xbar_demux_012: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_012"
+Info: cmd_xbar_demux_013: "nios_system" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_013"
+Info: cmd_xbar_mux: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: cmd_xbar_mux_001: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux_001"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_016: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux_016"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_035: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux_035"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_xbar_mux_036: "nios_system" instantiated altera_merlin_multiplexer "cmd_xbar_mux_036"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_demux: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux"
+Info: rsp_xbar_demux_001: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_001"
+Info: rsp_xbar_demux_014: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_014"
+Info: rsp_xbar_demux_016: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_016"
+Info: rsp_xbar_demux_035: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_035"
+Info: rsp_xbar_demux_036: "nios_system" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_036"
+Info: rsp_xbar_mux: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_012: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux_012"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_013: "nios_system" instantiated altera_merlin_multiplexer "rsp_xbar_mux_013"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: width_adapter: "nios_system" instantiated altera_merlin_width_adapter "width_adapter"
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/pavmeh/Desktop/fpga-music-visualizer-master/hardware/nios_system/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: irq_mapper: "nios_system" instantiated altera_irq_mapper "irq_mapper"
+Info: pipeline_bridge_swap_transform: After transform: 3 modules, 3 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 3 modules, 3 connections
+Info: avalon_st_adapter: "nios_system" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: i_tse_mac: "enet" instantiated altera_eth_tse_mac "i_tse_mac"
+Info: timing_adapter_0: Starting generation. 
+Info: timing_adapter_0_fifo: Starting generation. 
+Info: timing_adapter_0: "avalon_st_adapter" instantiated timing_adapter "timing_adapter_0"
+Info: nios_system: Done nios_system" with 110 modules, 663 files, 13306119 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
