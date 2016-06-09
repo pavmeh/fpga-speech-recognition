@@ -2,6 +2,7 @@
 This is a final project for EE109 at Stanford University.
 It implements speech recognition on the Altera DE2-115 board.
 See report for more info.
+
 Project References:
 Aakash, J., Paliwal N., Panchagnula K. T., (2010).“Real Time Speech Recognition Engine.”
 https://people.ece.cornell.edu/land/courses/ece5760/FinalProjects/f2010/np276_ksp55_aj355/n
